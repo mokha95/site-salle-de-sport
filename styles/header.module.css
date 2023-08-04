@@ -1,0 +1,73 @@
+
+
+
+.header {
+    background-color: #fff;
+    padding: 1rem;
+   
+  }
+
+
+
+  .imgcontainer {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+  }
+
+  /* **************************************navbar******************************* */
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 95%;
+    margin: 0 auto;
+  }
+
+  .logo{
+    width: 150px;
+  }
+
+  .couleur-fond{
+    background-color: #333;
+  }
+
+  .navigation{
+    display: flex;
+    gap: 20px;
+  }
+  .navigation li{
+  list-style-type: none;
+
+  }
+  .navigation a{
+color: inherit;
+
+  }
+
+
+  /* bouton */
+ .boutons{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.boutons .btnInscription{
+  background-color: #fe7000;
+  border-radius: 10px;
+  padding: 5px 20px ;
+ 
+  text-transform: uppercase;
+  border: none;
+  
+}
+
+ .iconeSport img{
+width: 22px;
+}
+
+.btnConnection button{
+  border: none;
+  text-transform: uppercase;
+} 
