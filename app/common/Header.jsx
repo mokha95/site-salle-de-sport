@@ -1,46 +1,59 @@
 
 import styles from "../../styles/header.module.css";
+import Link from "next/link";
+
 
 
 
 const Header = () => {
   return (
     <header>
-      <div className={styles.header}>
-        {/* <nav  >
-          <div className={styles.imgcontainer}>
-            <Image src="/img/logo.png" width={235} height={36} alt="logo" />
-          </div>
-        </nav>
-       */}
-          
-          <nav className={styles.navbar}>
-            <div className="logo-site">
-            <img className={styles.logo} src="/img/logo.png" alt="logo" />
-            </div>
+<div className="container-fluid">
+<nav className="navbar navbar-expand-lg bg-body-tertiary">
+  <div className="container-fluid">
+ 
+    <Link href="/" className={`navbar-brand ${styles.TitreSite}`}>  Mpower Gym</Link>
+  
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
 
-            <div >
-              <ul className={styles.navigation}>
-                <li><a href="#Accueil">Accueil</a></li>
-                <li><a href="#Concept">Concept</a></li>
-                <li><a href="#Notre Club">Notre Club</a></li>
-                <li><a href="#Abonnement">Abonnement</a></li>
-              </ul>
-            </div>
+    <ul className="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+    <li className="nav-item">
+    <Link href="/" className="nav-link ">  Accueil</Link>
+    </li>
+   
+    <li className="nav-item">
+    <Link href="/" className="nav-link ">  Concept</Link>
+    </li>
+   
+    <li className="nav-item">
+    <Link href="/" className="nav-link ">  Notre Club</Link>
+    </li>
+   
+    <li className="nav-item">
+    <Link href="/" className="nav-link ">  Abonnement</Link>
+    </li>
+  </ul>
 
-            <div className={styles.boutons}>
-             <button className={styles.btnInscription}>S'inscrire</button>
-             <div className={styles.iconeSport}>
-             <img src="img/icon.png" alt="" />
-             </div>
-             <div className={styles.btnConnection}>
-              <button>Se Connecter</button>
-             </div>
-            </div>
-          </nav>
+  <ul className="navbar-nav d-flex align-items-center ">
+<li className="nav-item ">
+    <Link href="/" className={` ${styles.btnInscription}  `}>  S'inscrire</Link>
+    </li>
 
-
-      </div>
+<li className="nav-item ">
+    <Link href="/" className="  nav-Link"><img src="img/Icon.png" alt="Logo " className={styles.imgLogo} /></Link>
+    </li>
+   
+    <li className="nav-item">
+    <Link href="/" className={`nav-link ${styles.btnConnection} `}>  Se connecter</Link>
+    </li>
+</ul>
+    </div>
+  </div>
+</nav>
+</div>
       </header>
   )
 }

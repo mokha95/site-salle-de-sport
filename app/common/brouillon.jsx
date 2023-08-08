@@ -1,44 +1,52 @@
-import Image from "next/image";
+
 import styles from "../../styles/header.module.css";
+
+
 
 const Header = () => {
   return (
     <header>
       <div className={styles.header}>
-        <nav className="navbar bg-dark navbar-dark navbar-expand-md " >
-          {/* <div className={styles.imgcontainer}>
-            <Image src="/img/logo.png" width={235} height={36} alt="logo" />
-          </div> */}
+        {/* <nav  >
           <div className={styles.imgcontainer}>
-
-          <a href="#"><img className={styles.logo} src="/img/logo.png" alt="logo du site" /></a>
-          </div>
-          
-        
-          <ul className="navbar-nav">
-            <li className="nav-item"><a className="nav-link" href="#">Accueil</a></li>
-            <li className="nav-item"><a className="nav-link" href="#">Concept </a></li>
-            <li className="nav-item"><a className="nav-link" href="#">Notre Club </a></li>
-            <li className="nav-item"><a className="nav-link" href="#">Abonnnement </a></li>
-          </ul>
-
-          <div>
-          <div>
-            <a href="#">S'inscrire</a>
-          </div>
-          <div>
-            <a href="#">Se connecter</a>
-          </div>
-
+            <Image src="/img/logo.png" width={235} height={36} alt="logo" />
           </div>
         </nav>
+       */}
+          
+          <nav className={styles.navbar}>
+            <div className="logo-site">
+            <img className={styles.logo} src="/img/logo.png" alt="logo" />
+            </div>
 
-          
-          
-          
+            <div >
+              <ul className={styles.navigation}>
+                <li><a href="#Accueil">Accueil</a></li>
+                <li><a href="#Concept">Concept</a></li>
+                <li><a href="#Notre Club">Notre Club</a></li>
+                <li><a href="#Abonnement">Abonnement</a></li>
+              </ul>
+            </div>
+
+            <div className={styles.boutons}>
+             <button className={styles.btnInscription}>S'inscrire</button>
+             <div className={styles.iconeSport}>
+             <img src="img/icon.png" alt="" />
+             </div>
+             <div className={styles.btnConnection}>
+              <button>Se Connecter</button>
+             </div>
+            </div>
+          </nav>
+
+
       </div>
       </header>
   )
 }
 
 export default Header
+
+// css header
+
+
