@@ -1,17 +1,15 @@
 .menu {
- background-color:var(--primary);   
+  background-color: var(--primary);
 }
 
-.objectifsSport{
-    color:var(--secondary) ;
+.objectifsSport {
+  color: var(--secondary);
 }
 
-.btnPage{
-    background-color: var(--secondary);
+.btnPage {
+  background-color: var(--secondary);
 }
-.btnPage:hover{
-    background-color:var(--secondary) ;
-    color: black;
-
+.btnPage:hover {
+  background-color: var(--secondary);
+  color: black;
 }
-

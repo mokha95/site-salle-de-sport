@@ -12,6 +12,8 @@
 body{
   font-family: 'Lato', sans-serif;
 }
+
+
 *,::before, ::after{
   box-sizing: border-box;
   margin: 0;
@@ -31,19 +33,25 @@ a{
 }
 
 
-/* .btnGlobal{
+
+
+/* boutons */
+.btnGlobal{
   background-color: var(--secondary);
   color: #000;
   border-radius: 10px;
   padding: 10px 10px;
   font-weight: 600;
-} */
+  font-family: 'Lato', sans-serif ;
+  border: none;
+}
 
 h1{
   color:var(--couleur-texte1) ;
   text-transform: uppercase;
   
 }
+
 
 main p{
   color: var(--couleur-texte1);
@@ -53,5 +61,11 @@ main p{
   .btn1 {
       margin-bottom: 30px;
   }
+}
+
+/* SECTION */
+
+.sportifEntrainement{
+  width: 80%;
 }
 

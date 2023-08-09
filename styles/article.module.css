@@ -1,0 +1,12 @@
+.actu {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.trait {
+  height: 2px;
+  width: 20%;
+
+  margin: 0 auto;
+  background-color: var(--secondary);
+}
