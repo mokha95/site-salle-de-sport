@@ -35,7 +35,10 @@ const RegisterPage = () => {
   // quand on soumet les donnees on apelle fonction registerUser qui va communiquer avec l'api qu on a construit dans app.api
   return (
     <div className={styles.container_formul}>
-      <h1>S'inscrire</h1>
+      <h1 className={`pt-5 text-center ${styles.formInscription}`}>
+        S'inscrire
+      </h1>
+
       {/*formulaire*/}
       <form
         className={styles.main}
@@ -45,10 +48,18 @@ const RegisterPage = () => {
         }}
       >
         <div className={styles.inputGroup}>
+          <label className="mb-2 " htmlFor="civilite">
+            Civilité*
+          </label>
+
+          <label htmlFor="prenom" className="form-label">
+            Prenom*
+          </label>
           <input
             type="text"
             placeholder="Votre Prénom"
-            className={styles.inputField}
+            id="prenom"
+            className={`  ${styles.inputField}`}
             onChange={(e) => {
               setData({ ...data, firstname: e.currentTarget.value });
             }}
@@ -56,9 +67,13 @@ const RegisterPage = () => {
           />
         </div>
         <div className={styles.inputGroup}>
+          <label htmlFor="nom" className="form-label">
+            Nom*
+          </label>
           <input
             type="text"
             placeholder="Votre Nom"
+            id="nom"
             className={styles.inputField}
             onChange={(e) => {
               setData({ ...data, lastname: e.currentTarget.value });
@@ -67,9 +82,13 @@ const RegisterPage = () => {
           />
         </div>
         <div className={styles.inputGroup}>
+          <label htmlFor="prenom" className="form-label">
+            Email*
+          </label>
           <input
             type="email"
             placeholder="Votre Email"
+            id="email"
             className={styles.inputField}
             onChange={(e) => {
               setData({ ...data, email: e.currentTarget.value });
@@ -78,9 +97,28 @@ const RegisterPage = () => {
           />
         </div>
         <div className={styles.inputGroup}>
+          <label htmlFor="telephone" className="form-label">
+            Téléphone portable*
+          </label>
           <input
-            type="text"
+            type="tel"
+            placeholder="Votre numéro"
+            id="phone"
+            className={styles.inputField}
+            onChange={(e) => {
+              setData({ ...data, email: e.currentTarget.value });
+            }}
+            required="required"
+          />
+        </div>
+        <div className={styles.inputGroup}>
+          <label htmlFor="mot de passe" className="form-label">
+            Mot de Passe*
+          </label>
+          <input
+            type="password"
             placeholder="Votre Mot de passe"
+            id="mot de passe"
             className={styles.inputField}
             onChange={(e) => {
               setData({ ...data, password: e.currentTarget.value });
@@ -89,9 +127,13 @@ const RegisterPage = () => {
           />
         </div>
         <div className={styles.inputGroup}>
+          <label htmlFor="adresse" className="form-label">
+            Adresse*
+          </label>
           <input
             type="text"
             placeholder="Votre Addresse"
+            id="adresse"
             className={styles.inputField}
             onChange={(e) => {
               setData({ ...data, address: e.currentTarget.value });
@@ -100,9 +142,13 @@ const RegisterPage = () => {
           />
         </div>
         <div className={styles.inputGroup}>
+          <label htmlFor="naissance" className="form-label">
+            Date de Naissance*
+          </label>
           <input
-            type="text"
+            type="date"
             placeholder="Votre téléphone"
+            id="date"
             className={styles.inputField}
             onChange={(e) => {
               setData({ ...data, phone: e.currentTarget.value });
@@ -111,6 +157,7 @@ const RegisterPage = () => {
           />
         </div>
         <div className={styles.inputGroup}>
+          <label className="form-label"></label>
           <input
             type="submit"
             name="Enregister"

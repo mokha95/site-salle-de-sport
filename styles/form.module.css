@@ -8,10 +8,11 @@
   text-align: left;
 }
 .inputField {
-  height: 6rem;
   border-radius: 10px;
-  border: 2px solid orange;
-  padding: 1rem;
+  /* border: none; */
+  border: 1px solid var(--primary);
+  outline: none;
+  padding: 10px;
 }
 
 .textarea {
@@ -22,20 +23,22 @@
 }
 
 .submitButton {
-  height: 6rem;
+  /* height: 6rem; */
   width: 10rem;
   border-radius: 10px;
   color: white;
-  background-color: orange;
+  background-color: var(--secondary);
   border: none;
   margin: 0.5rem auto;
+  padding: 10px 10px;
+  font-weight: 600;
 }
 
-.submitButton:hover {
+/* .submitButton:hover {
   border: 2px solid orange;
   color: orange;
   background-color: white;
-}
+} */
 
 .container_formul {
   margin: 0.5rem 0;
@@ -44,4 +47,8 @@
 
 .main {
   padding: 1rem;
+}
+
+.formInscription {
+  color: var(--primary);
 }
