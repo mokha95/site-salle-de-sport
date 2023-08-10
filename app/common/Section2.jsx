@@ -27,7 +27,7 @@ const Section2 = () => {
             <div className="col-lg-6">
               <div className="partieGauche">
                 <h3>UN COMPLEXE SPORTIF</h3>
-                <div className={styles.trait}></div>
+                <div className={styles.trait2}></div>
                 <p className="lh-lg">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Dolore at libero sed harum accusantium exercitationem impedit
@@ -56,7 +56,7 @@ const Section2 = () => {
             <div className="col-lg-6 order-2">
               <div className="partieGauche ">
                 <h3>UN COMPLEXE SPORTIF</h3>
-                <div className={styles.trait}></div>
+                <div className={styles.trait2}></div>
                 <p className="lh-lg">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Dolore at libero sed harum accusantium exercitationem impedit
@@ -84,7 +84,7 @@ const Section2 = () => {
             <div className="col-lg-6">
               <div className="partieGauche">
                 <h3>UN COMPLEXE SPORTIF</h3>
-                <div className={styles.trait}></div>
+                <div className={styles.trait2}></div>
                 <p className="lh-lg">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Dolore at libero sed harum accusantium exercitationem impedit

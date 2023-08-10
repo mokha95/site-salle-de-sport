@@ -8,9 +8,12 @@
   width: 57px;
   height: 2px;
   background-color: var(--secondary);
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
-.titrePage {
-  /* font-size: 2rem; */
+.trait2 {
+  padding: 0px;
+  width: 57px;
+  height: 2px;
+  background-color: var(--secondary);
 }
