@@ -3,7 +3,7 @@ import styles from "../../styles/section2.module.css";
 
 const Section2 = () => {
   return (
-    <section className={`container mt-5 pb-5 ${styles.couleurFond}`}>
+    <section className={`container-fluid mt-5 pb-5 ${styles.couleurFond}`}>
       <div>
         <h2 className={`pt-5 text-center ${styles.titrePage}`}>
           RELÂCHEZ LA PRESSION CHEZ MPOWER GYM

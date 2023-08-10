@@ -1,14 +1,16 @@
 import React from "react";
 import styles from "../../styles/footer.module.css";
+import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="contaainer">
+    <footer className={` ${styles.couleurFooter}`}>
+      <div className="container">
         <div className="row">
-          <div className="col-lg-4">Mpower Gym</div>
-          <div className={styles.trait}>
-            <ul>
+          <div className="col-lg-4">
+            <h4>Mpower Gym</h4>
+            <div className={styles.trait}></div>
+            <ul className={`lh-lg ${styles.liste}`}>
               <li> Adresse : Rue Théroigne</li>
               <li> de Méricourt, 75000 Paris</li>
               <li> numéros : 01 20 65 75 89</li>
@@ -16,9 +18,10 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="col-lg-4">Aide & Informations</div>
-          <div className={styles.trait}>
-            <ul>
+          <div className="col-lg-4">
+            <h4> Aide & Informations</h4>
+            <div className={styles.trait}></div>
+            <ul className={`lh-lg ${styles.liste}`}>
               <li> FAQ</li>
               <li> Abonnements</li>
               <li> Contact</li>
@@ -26,9 +29,11 @@ const Footer = () => {
               <li> La Franchise</li>
             </ul>
           </div>
-          <div className="col-lg-4">Horaires</div>
-          <div className={styles.trait}>
-            <ul>
+
+          <div className="col-lg-4">
+            <h4>Horaires</h4>
+            <div className={styles.trait}></div>
+            <ul className={`lh-lg ${styles.liste}`}>
               <li> Lundi - 06h00 - 23h00</li>
               <li> Mardi - 06h00 - 23h00</li>
               <li> Mercredi - 06h00 - 23h00</li>
