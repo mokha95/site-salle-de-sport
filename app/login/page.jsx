@@ -29,7 +29,9 @@ const LoginPage = () => {
 
   return (
     <div className={styles.container_formul}>
-      <h1>S&apos;enregistrer</h1>
+      <h1 className={`pt-5 text-center ${styles.formInscription}`}>
+        S&apos;enregistrer
+      </h1>
       {/*formulaire*/}
       <form
         className={styles.main}
@@ -73,5 +75,3 @@ const LoginPage = () => {
 };
 
 export default LoginPage;
-
-

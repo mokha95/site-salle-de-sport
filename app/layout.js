@@ -8,6 +8,7 @@ import ToasterContext from "@/context/ToasterContext";
 import Main from "./common/Main";
 import Section from "./common/Section";
 import Article from "./common/Article";
+import Section2 from "./common/Section2";
 
 // const inter = Inter({ subsets: ['latin'] })
 // layout fichier principale
@@ -50,9 +51,9 @@ export default function RootLayout({ children }) {
           <Main />
           <Section />
           <Article />
-          {children}
-
+          <Section2 />
           <Footer />
+          {children}
         </body>
       </Provider>
     </html>

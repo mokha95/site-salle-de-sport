@@ -1,0 +1,16 @@
+.couleurFond {
+  background-color: var(--primary);
+  color: white;
+}
+
+.trait {
+  padding: 0px;
+  width: 57px;
+  height: 2px;
+  background-color: var(--secondary);
+  margin: 20px auto;
+}
+
+.titrePage {
+  /* font-size: 2rem; */
+}

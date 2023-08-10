@@ -14,22 +14,47 @@ const Article = () => {
       <div className="container mt-5 ">
         <div className="row">
           <div className="col-lg-4  ">
-            <img className="img-fluid" src=" img/food-1.jpg " alt="" />
-            <h4>Lorem ipsum dolor sit amet.</h4>
-            <div className="trait-2"></div>
-            <p>Lire la suite</p>
+            <div className={styles.txtBas}>
+              <img className="img-fluid" src=" img/food-1.jpg " alt="repas " />
+              <div className={styles.separation}></div>
+              <div className={styles.blocCard}>
+                <h4 className={styles.titreBlog}>
+                  COMMENT PERDRE DU POID RAPIDEMENT ?.
+                </h4>
+                <div className={styles.trait2}></div>
+                <Link className={styles.liensArticle} href="/">
+                  Lire la suite
+                </Link>
+              </div>
+            </div>
           </div>
           <div className="col-lg-4  ">
-            <img className="img-fluid" src=" img/food-1.jpg " alt="" />
-            <h4>Lorem ipsum dolor sit amet.</h4>
-            <div className="trait-2"></div>
-            <p>Lire la suite</p>
+            <div className={styles.txtBas}>
+              <img className="img-fluid" src=" img/food-1.jpg " alt="repas " />
+              <div className={styles.separation}></div>
+              <div className={styles.blocCard}>
+                <h4 className={styles.titreBlog}>
+                  LA NUTRITION EST IMPORTANTE.
+                </h4>
+                <div className={styles.trait2}></div>
+                <Link className={styles.liensArticle} href="/">
+                  Lire la suite
+                </Link>
+              </div>
+            </div>
           </div>
           <div className="col-lg-4  ">
-            <img className="img-fluid" src=" img/food-1.jpg " alt="" />
-            <h4>Lorem ipsum dolor sit amet.</h4>
-            <div className="trait-2"></div>
-            <p>Lire la suite</p>
+            <div className={styles.txtBas}>
+              <img className="img-fluid" src=" img/food-1.jpg " alt="repas " />
+              <div className={styles.separation}></div>
+              <div className={styles.blocCard}>
+                <h4 className={styles.titreBlog}>COMPRENDRE SON CORPS.</h4>
+                <div className={styles.trait2}></div>
+                <Link className={styles.liensArticle} href="/">
+                  Lire la suite
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
