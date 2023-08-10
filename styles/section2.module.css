@@ -12,7 +12,7 @@
 }
 
 .trait2 {
-  padding: 0px;
+  margin: 10px 0;
   width: 57px;
   height: 2px;
   background-color: var(--secondary);
