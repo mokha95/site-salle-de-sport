@@ -1,46 +1,103 @@
 "use client";
 import { useSession } from "next-auth/react";
 import Link from "next/link";
-import ButtonOut from "./buttonout";
+import ButtonOut from "./buttonOut";
 import styles from "../../styles/header.module.css";
 
 const ConditionalNav = () => {
   const { data: session, status, token } = useSession();
   if (status === "authenticated") {
     return (
-      <div className="{styles.contenedor styles.barre}">
-        <Link href={"/"} className="{styles.navigation">
-          Accueil
-        </Link>
-        <Link href={"/club"} className="{styles.navigation">
-          Notre Club
-        </Link>
-        <div>
-          <Link href={"/profil"} className="{styles.navigation">
-            {session?.user.email}
-          </Link>
-          <ButtonOut />
-        </div>
-      </div>
+      <>
+        <ul className="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+          <li className="nav-item">
+            <Link href={"/"} className="nav-link ">
+              {" "}
+              Accueil
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link href={"/"} className="nav-link ">
+              Concept
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link href={"/"} className="nav-link ">
+              Notre Club
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link href={"/"} className="nav-link ">
+              Abonnement
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link href={"/profil"} className="nav-link ">
+              {session?.user.email}
+            </Link>
+          </li>
+        </ul>
+
+        <ButtonOut />
+      </>
     );
   } else {
     return (
-      <div className={`contenedor ${styles.barre}`}>
-        <Link href={"/"} className="{styles.navigation">
-          Accueil
-        </Link>
+      <>
+        <ul className="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+          <li className="nav-item">
+            <Link href="/" className="nav-link ">
+              Accueil
+            </Link>
+          </li>
 
-        <div>
-          <Link href={"/register"}>Inscription</Link>
-          <Link href={"/login"}>Connexion</Link>
-        </div>
-      </div>
+          <li className="nav-item">
+            <Link href="/" className="nav-link ">
+              Concept
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link href="/" className="nav-link ">
+              Notre Club
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link href="/" className="nav-link ">
+              Abonnement
+            </Link>
+          </li>
+        </ul>
+
+        <ul className="navbar-nav d-flex align-items-center ">
+          <li className="nav-item ">
+            <Link href={"/register"} className={` ${styles.btnInscription}  `}>
+              S'inscrire
+            </Link>
+          </li>
+
+          <li className="nav-item ">
+            <Link href="/" className="  nav-Link">
+              <img src="img/Icon.png" alt="Logo " className={styles.imgLogo} />
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link
+              href={"/login"}
+              className={`nav-link ${styles.btnConnection} `}
+            >
+              Se connecter
+            </Link>
+          </li>
+        </ul>
+      </>
     );
   }
 };
 
 export default ConditionalNav;
-
-
-
-

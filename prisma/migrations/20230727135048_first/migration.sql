@@ -6,7 +6,6 @@ CREATE TABLE `User` (
     `email` VARCHAR(191) NOT NULL,
     `password` VARCHAR(191) NOT NULL,
     `phone` VARCHAR(191) NOT NULL,
-    `address` TEXT NOT NULL,
     `role` ENUM('USER', 'ADMIN') NOT NULL DEFAULT 'USER',
 
     UNIQUE INDEX `User_email_key`(`email`),

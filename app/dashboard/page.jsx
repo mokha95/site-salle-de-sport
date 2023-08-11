@@ -1,9 +1,7 @@
-
 "use client";
-import ConditionalNav from '../components/conditionalNav'
+
 import { useSession } from "next-auth/react";
 import styles from "../page.module.css";
-import ButtonOut from "../components/buttonout";
 
 const DashboardPage = () => {
   const { data: session, status, update } = useSession();
@@ -12,10 +10,15 @@ const DashboardPage = () => {
     return (
       <main className={styles.main}>
         <h1>Dashboard</h1>
-        <br /> <ButtonOut />
-        <ConditionalNav />
+      </main>
+    );
+  } else {
+    return (
+      <main className={styles.main}>
+        <h1>vous n etes pas connecter</h1>
       </main>
     );
   }
 };
 
+export default DashboardPage;

@@ -1,6 +1,6 @@
 "use client";
 import { signOut } from "next-auth/react";
-import styles from "../../styles/form.module.css";
+
 import Button from "react-bootstrap/Button";
 const ButtonOut = () => {
   return (
@@ -20,5 +20,3 @@ const ButtonOut = () => {
 };
 
 export default ButtonOut;
-
-

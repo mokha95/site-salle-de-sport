@@ -1,5 +1,6 @@
 import styles from "../../styles/header.module.css";
 import Link from "next/link";
+import ConditionalNav from "../components/conditionalNav";
 
 const Header = () => {
   return (
@@ -27,64 +28,7 @@ const Header = () => {
               className="collapse navbar-collapse"
               id="navbarSupportedContent"
             >
-              <ul className="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <Link href="/" className="nav-link ">
-                    {" "}
-                    Accueil
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link href="/" className="nav-link ">
-                    {" "}
-                    Concept
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link href="/" className="nav-link ">
-                    {" "}
-                    Notre Club
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link href="/" className="nav-link ">
-                    {" "}
-                    Abonnement
-                  </Link>
-                </li>
-              </ul>
-
-              <ul className="navbar-nav d-flex align-items-center ">
-                <li className="nav-item ">
-                  <Link href="/" className={` ${styles.btnInscription}  `}>
-                    {" "}
-                    S'inscrire
-                  </Link>
-                </li>
-
-                <li className="nav-item ">
-                  <Link href="/" className="  nav-Link">
-                    <img
-                      src="img/Icon.png"
-                      alt="Logo "
-                      className={styles.imgLogo}
-                    />
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link
-                    href="/"
-                    className={`nav-link ${styles.btnConnection} `}
-                  >
-                    {" "}
-                    Se connecter
-                  </Link>
-                </li>
-              </ul>
+              <ConditionalNav />
             </div>
           </div>
         </nav>

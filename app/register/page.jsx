@@ -14,7 +14,6 @@ const RegisterPage = () => {
     email: "",
     password: "",
     phone: "",
-    address: "",
   });
 
   const registerUser = async () => {
@@ -48,10 +47,6 @@ const RegisterPage = () => {
         }}
       >
         <div className={styles.inputGroup}>
-          <label className="mb-2 " htmlFor="civilite">
-            Civilité*
-          </label>
-
           <label htmlFor="prenom" className="form-label">
             Prenom*
           </label>
@@ -101,12 +96,12 @@ const RegisterPage = () => {
             Téléphone portable*
           </label>
           <input
-            type="tel"
+            type="text"
             placeholder="Votre numéro"
             id="phone"
             className={styles.inputField}
             onChange={(e) => {
-              setData({ ...data, email: e.currentTarget.value });
+              setData({ ...data, phone: e.currentTarget.value });
             }}
             required="required"
           />
@@ -116,7 +111,7 @@ const RegisterPage = () => {
             Mot de Passe*
           </label>
           <input
-            type="password"
+            type="text"
             placeholder="Votre Mot de passe"
             id="mot de passe"
             className={styles.inputField}
@@ -126,36 +121,7 @@ const RegisterPage = () => {
             required="required"
           />
         </div>
-        <div className={styles.inputGroup}>
-          <label htmlFor="adresse" className="form-label">
-            Adresse*
-          </label>
-          <input
-            type="text"
-            placeholder="Votre Addresse"
-            id="adresse"
-            className={styles.inputField}
-            onChange={(e) => {
-              setData({ ...data, address: e.currentTarget.value });
-            }}
-            required="required"
-          />
-        </div>
-        <div className={styles.inputGroup}>
-          <label htmlFor="naissance" className="form-label">
-            Date de Naissance*
-          </label>
-          <input
-            type="date"
-            placeholder="Votre téléphone"
-            id="date"
-            className={styles.inputField}
-            onChange={(e) => {
-              setData({ ...data, phone: e.currentTarget.value });
-            }}
-            required="required"
-          />
-        </div>
+
         <div className={styles.inputGroup}>
           <label className="form-label"></label>
           <input
