@@ -1,10 +1,9 @@
 import React from "react";
 import styles from "../../styles/footer.module.css";
-import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className={` ${styles.couleurFooter}`}>
+    <footer className={` pt-5 ${styles.couleurFooter}`}>
       <div className="container">
         <div className="row">
           <div className="col-lg-4">

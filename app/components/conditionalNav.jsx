@@ -30,7 +30,7 @@ const ConditionalNav = () => {
           </li>
 
           <li className="nav-item">
-            <Link href={"/"} className="nav-link ">
+            <Link href={"/abonnement"} className="nav-link ">
               Abonnement
             </Link>
           </li>
@@ -54,11 +54,11 @@ const ConditionalNav = () => {
             </Link>
           </li>
 
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link href="/" className="nav-link ">
               Concept
             </Link>
-          </li>
+          </li> */}
 
           <li className="nav-item">
             <Link href="/" className="nav-link ">
@@ -67,14 +67,14 @@ const ConditionalNav = () => {
           </li>
 
           <li className="nav-item">
-            <Link href="/" className="nav-link ">
+            <Link href={"/abonnement"} className="nav-link ">
               Abonnement
             </Link>
           </li>
         </ul>
 
-        <ul className="navbar-nav d-flex align-items-center ">
-          <li className="nav-item ">
+        <ul className="navbar-nav d-flex  align-items-center  ">
+          <li className="nav-item navigationBoutons ">
             <Link href={"/register"} className={` ${styles.btnInscription}  `}>
               S'inscrire
             </Link>

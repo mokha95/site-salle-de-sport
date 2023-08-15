@@ -17,3 +17,12 @@
   height: 2px;
   background-color: var(--secondary);
 }
+
+@media screen and (max-width: 1000px) {
+  .imgDroiteSportif {
+    order: 2 !important;
+  }
+  .stylesTextGauche {
+    order: 1;
+  }
+}

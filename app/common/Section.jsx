@@ -45,7 +45,7 @@ const Section = () => {
                 <Link href="/">
                   {" "}
                   <button className="btnGlobal mt-2">
-                    RÉSERVE TA SÉANCE D’ESSAI{" "}
+                    RÉSERVE TA SÉANCE D’ESSAI
                   </button>
                 </Link>
               </div>

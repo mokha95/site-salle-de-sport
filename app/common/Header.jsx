@@ -5,7 +5,7 @@ import ConditionalNav from "../components/conditionalNav";
 const Header = () => {
   return (
     <header>
-      <div className="container-fluid">
+      <div className={`container-fluid   p-0 ${styles.containerHeader}`}>
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container-fluid">
             <Link href="/" className={`navbar-brand ${styles.TitreSite}`}>

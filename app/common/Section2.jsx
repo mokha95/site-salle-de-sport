@@ -53,7 +53,7 @@ const Section2 = () => {
         </div>
         <div className="d-flex container mt-5">
           <div className="row">
-            <div className="col-lg-6 order-2">
+            <div className={`col-lg-6 order-2 ${styles.TextGauche}`}>
               <div className="partieGauche ">
                 <h3>UN COMPLEXE SPORTIF</h3>
                 <div className={styles.trait2}></div>
@@ -68,7 +68,7 @@ const Section2 = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-6 order-1">
+            <div className={`col-lg-6 order-1 ${styles.imgDroiteSportif}`}>
               <div className="partieDroite ">
                 <img
                   className="img-fluid"

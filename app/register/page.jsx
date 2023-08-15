@@ -34,9 +34,7 @@ const RegisterPage = () => {
   // quand on soumet les donnees on apelle fonction registerUser qui va communiquer avec l'api qu on a construit dans app.api
   return (
     <div className={styles.container_formul}>
-      <h1 className={`pt-5 text-center ${styles.formInscription}`}>
-        S'inscrire
-      </h1>
+      <h1 className={` text-center ${styles.formInscription}`}>S'inscrire</h1>
 
       {/*formulaire*/}
       <form

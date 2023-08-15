@@ -11,8 +11,8 @@ const Article = () => {
         <p className="mt-3 text-center">DÉCOUVREZ NOS DERNIERS ARTICLES</p>
         <div className={styles.trait}></div>
       </div>
-      <div className="container mt-5 ">
-        <div className="row">
+      <div className="container mt-5   ">
+        <div className="row ">
           <div className="col-lg-4  ">
             <div className={styles.txtBas}>
               <img className="img-fluid" src=" img/food-1.jpg " alt="repas " />

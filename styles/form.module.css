@@ -41,7 +41,7 @@
 } */
 
 .container_formul {
-  margin: 0.5rem 0;
+  /* margin: 0.5rem 0; */
   background-color: rgba(232, 232, 232, 0.869);
 }
 
@@ -51,4 +51,5 @@
 
 .formInscription {
   color: var(--primary);
+  padding-top: 100px;
 }

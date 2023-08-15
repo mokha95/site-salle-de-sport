@@ -8,7 +8,7 @@ import ToasterContext from "@/context/ToasterContext";
 import Script from "next/script";
 
 // const inter = Inter({ subsets: ['latin'] })
-// layout fichier principale
+// layout fichier principale de l 'aplication
 
 export const metadata = {
   title: "Create Next App",

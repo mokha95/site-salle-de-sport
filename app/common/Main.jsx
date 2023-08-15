@@ -5,8 +5,8 @@ import Link from "next/link";
 const Main = () => {
   return (
     <main className={styles.menu}>
-      <div className="container p-5 ">
-        <div className="row  ">
+      <div className="container p-5  ">
+        <div className="row pt-5  ">
           <div className=" col-lg-6 ">
             <div className="partieGauche mw-25">
               <h1>
