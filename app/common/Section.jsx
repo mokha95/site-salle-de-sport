@@ -27,17 +27,23 @@ const Section = () => {
               <div className="texteDroite mt-4">
                 <p>
                   {" "}
-                  <span className={styles.texteGras}>Lorem, ipsum dolor </span>
-                  sit amet consectetur adipisicing elit. Repudiandae natus nulla
-                  in minus, ullam nam! Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Quia asperiores totam delectus quaerat!
+                  <span className={styles.texteGras}>
+                    {" "}
+                    Que vous soyez un débutant{" "}
+                  </span>
+                  cherchant à prendre un nouveau départ ou un athlète chevronné
+                  en quête de défis, Mpower Gym vous offre un terrain
+                  d'entraînement sans limites. Notre équipe d'experts passionnés
+                  est là pour vous guider, vous soutenir et vous encourager à
+                  chaque étape de votre parcours.
                 </p>
 
                 <p>
-                  Unde assumenda tenetur atque, corrupti illum dignissimos.
-                  Molestiae exercitationem quam ipsum facilis, eaque eos qui
-                  quae sunt voluptatem, esse libero. Maxime dolorem commodi
-                  ratione, libero aliquid in distinctio reiciendis dolor.
+                  Dans notre salle de sport, nous ne vendons pas seulement des
+                  adhésions, nous offrons un voyage vers une meilleure version
+                  de vous-même. Chaque goutte de sueur, chaque série d'exercices
+                  et chaque effort que vous investissez vous rapprochent de vos
+                  rêves les plus audacieux.
                 </p>
               </div>
 

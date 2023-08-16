@@ -19,11 +19,15 @@ const Main = () => {
               <p className="">Viens t’entrainer au club Power Gym</p>
               <br />
               <p>
-                Lorem, ipsum dolor sit amet consectetur
+                Chez Mpower Gym, nous croyons que chaque pas vers la salle de
+                sport est un pas vers une vie plus forte plus saine et plus
+                vibrante
                 <br />
-                adipisicing elit. Repudiandae natus
+                C'est ici que vous trouverez la force intérieure pour surmonter
+                les obstacles
                 <br />
-                nulla in minus, ullam nam!
+                le courage pour défier vos limites et l'énergie pour conquérir
+                vos rêves les plus fous.
               </p>
               <div className="btn1 mt-5">
                 <Link href="/">

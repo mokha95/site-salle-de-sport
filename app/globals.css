@@ -119,15 +119,12 @@ main p {
   cursor: default;
   font-size: 16px;
   background-color: var(--secondary);
+
   font-weight: bold;
   letter-spacing: normal;
 
   text-align: center;
   text-transform: uppercase;
-}
-
-.typeAbonnement p {
-  margin: 0;
 }
 
 .prix {
@@ -157,4 +154,16 @@ main p {
   background-color: var(--secondary);
 }
 
-/* global */
+/* mon club */
+
+.blocClub {
+  margin-top: 100px;
+}
+/* 
+.texteClub p {
+  margin: 0 auto;
+} */
+
+.Salle1 {
+  /* width: 600px; */
+}

@@ -11,11 +11,12 @@ const Section2 = () => {
         <div className={styles.trait}></div>
 
         <p className="text-center">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore at
-          libero sed harum accusantium exercitationem impedit <br /> aspernatur
-          sequi? Facere accusamus numquam impedit temporibus illum libero
-          necessitatibus omnis ipsa sequi vitae. <br /> accusamus numquam
-          impedit temporibus illum libero necessitatibus omnis ipsa sequi vitae.
+          Lorsque vous entrez dans nos locaux, laissez vos doutes à la porte et
+          enfilez votre détermination. Chaque séance d'entraînement est une
+          opportunité de vous dépasser, de dépasser vos propres attentes et de
+          devenir la meilleure version de vous-même. Les résultats ne viennent
+          pas du confort, mais de la résistance que vous choisissez de
+          surmonter.
         </p>
         <h2 className={` text-center ${styles.titrePage}`}>
           VOTRE CLUB DE MUSCULATION ET DE FITNESS
@@ -29,13 +30,11 @@ const Section2 = () => {
                 <h3>UN COMPLEXE SPORTIF</h3>
                 <div className={styles.trait2}></div>
                 <p className="lh-lg">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Dolore at libero sed harum accusantium exercitationem impedit
-                  aspernatur sequi? Facere accusamus numquam impedit temporibus
-                  illum libero necessitatibus omnis ipsa sequi vitae. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Sed,
-                  reiciendis illo eum ad corporis aliquam deleniti corrupti
-                  voluptatum dolorum eaque voluptate unde, iusto odio{" "}
+                  Alors, êtes-vous prêt à vous engager dans ce voyage excitant ?
+                  Relevez le défi, repoussez les limites et découvrez le pouvoir
+                  qui sommeille en vous. Rejoignez-nous dans notre salle de
+                  sport, où les rêves deviennent des réalités et où la
+                  persévérance construit des destins.
                 </p>
               </div>
             </div>

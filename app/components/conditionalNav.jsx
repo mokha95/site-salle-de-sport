@@ -61,8 +61,8 @@ const ConditionalNav = () => {
           </li> */}
 
           <li className="nav-item">
-            <Link href="/" className="nav-link ">
-              Notre Club
+            <Link href="/club" className="nav-link ">
+              Mon Club
             </Link>
           </li>
 

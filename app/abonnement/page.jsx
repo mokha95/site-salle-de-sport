@@ -1,5 +1,4 @@
 import React from "react";
-import img1 from "@/public/img/sportif-sport.avif";
 
 const page = () => {
   return (
@@ -11,9 +10,11 @@ const page = () => {
           TROUVE FACILEMENT L’ABONNEMENT QUI TE CONVIENT.
         </h1>
         <p className="txtAbonnement text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-          libero at blanditiis quidem est odit, commodi similique dignissimos
-          illum eum nisi officia quisquam distinctio iure.
+          En devenant membre de Mpower Gym, vous bénéficiez d'un accès illimité
+          à nos installations modernes et ultramodernes. Des équipements dernier
+          cri aux espaces d'entraînement spécialement conçus, notre salle de
+          sport offre tout ce dont vous avez besoin pour atteindre vos objectifs
+          de fitness.
         </p>
         <h2 className="pt-5 text-center">NOS OFFRES AVEC ENGAGEMENT</h2>
       </div>
@@ -21,7 +22,7 @@ const page = () => {
       <div className="cardAbonnement container  ">
         <div className=" carteAbonnement d-flex text-center  justify-content-center ">
           <div className="cardTarifs col-lg-4    ">
-            <div className="typeAbonnement">
+            <div className="typeAbonnement p-3">
               <p>Classic</p>
             </div>
             <div className="prixAbonnement pt-4">
@@ -39,11 +40,13 @@ const page = () => {
               <p>Frais d'adhésion de 25€</p>
 
               <p>Plateforme tonicité et minceur</p>
+
+              <p>Un sac de sport offert</p>
             </div>
           </div>
           {/*  */}
           <div className="cardTarifs col-lg-4   ">
-            <div className="typeAbonnement ">
+            <div className="typeAbonnement p-3 ">
               <p>Classic</p>
             </div>
             <div className="prixAbonnement pt-4">
@@ -61,11 +64,13 @@ const page = () => {
               <p>Frais d'adhésion de 25€</p>
 
               <p>Plateforme tonicité et minceur</p>
+
+              <p>Un sac de sport offert</p>
             </div>
           </div>
 
           <div className="cardTarifs col-lg-4   ">
-            <div className="typeAbonnement">
+            <div className="typeAbonnement p-3">
               <p>Classic</p>
             </div>
             <div className="prixAbonnement pt-4">
@@ -83,6 +88,11 @@ const page = () => {
               <p>Frais d'adhésion de 25€</p>
 
               <p>Plateforme tonicité et minceur</p>
+              <p>Balance d'analyse corporelle</p>
+              <p>Coaching en ligne</p>
+              <p>Entraînement avec un invité</p>
+              <p></p>
+              <p></p>
             </div>
           </div>
         </div>
@@ -95,12 +105,10 @@ const page = () => {
         </h2>
         <div className="trait"></div>
         <p className=" text-center pt-4 pb-4">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem porro
-          dicta inventore tempora sed quibusdam repellendus dolores veniam
-          saepe, ad sunt, id nesciunt corporis laborum? Repudiandae mollitia
-          ipsam ullam voluptate. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Tenetur laborum consequatur laboriosam odit sunt,
-          explicabo fugit. Sequi explicabo vel repudiandae.{" "}
+          En tant que membre, vous avez accès à des experts en fitness et en
+          nutrition qui sont déterminés à vous aider à réussir. Bénéficiez de
+          séances d'entraînement personnalisées, de conseils nutritionnels
+          avisés et de suivis réguliers pour maximiser vos résultats.
         </p>
         {/* img */}
         <div className="container d-flex justify-content-center">
