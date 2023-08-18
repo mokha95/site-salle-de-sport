@@ -12,10 +12,10 @@
 /* bootstrap breakpoint 
 
 
-Small = 	≥576px  md
-Medium = 	≥768px  md
-Large = 	≥992px  lg
-Extra large = 	≥1200px  xl
+Small =   ≥576px  md
+Medium =   ≥768px  md
+Large =   ≥992px  lg
+Extra large =   ≥1200px  xl
 
 */
 
@@ -158,6 +158,16 @@ main p {
 
 .blocClub {
   margin-top: 100px;
+}
+
+.ClubText {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.textFitness {
+  color: var(--secondary);
+  font-weight: 600;
 }
 /* 
 .texteClub p {
